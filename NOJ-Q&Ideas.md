@@ -40,7 +40,7 @@ vq = 4*pi*r*r*r/3;
 
 ### NOJ 013
 
-Question：
+##### Question：
 
 ![NOJ 13](C:\Users\lang\Pictures\截了一手好图\NOJ\NOJ 13.png)
 
@@ -59,3 +59,46 @@ Question：
 ##### Thought: 
 
 这道题目明显是利用循环来找到关键的起始数字，完成这一步时灵感来的快，但是不幸的是把等差数列求和看成等比数列求和导致编译出错，修正了好一会儿。另一个启示点就是明白了这种不确定个数的打印应该采取循环的方式去执行来控制，很简单的思路，但就是没有转过来弯，不加\n即可出现在同一行。
+
+### NOJ 015
+
+##### Question:
+
+![NOJ 14](C:\Users\lang\Pictures\截了一手好图\NOJ\NOJ 15.png)
+
+##### Thought: 
+
+根源问题是斐波那契数的表示，此处采用循环的方式进行表示，还可采用函数递归（不推荐，重复计算次数太多，效率低）。
+
+### NOJ 016
+
+##### Question:
+
+![NOJ 14](C:\Users\lang\Pictures\截了一手好图\NOJ\NOJ 16.png)
+
+##### Thought: 
+
+同上一题思想类似，也属于给出数字递推公式的题目，只要实现循环体内部的数字交叉赋值即可。
+
+### NOJ 017
+
+##### Question:
+
+![NOJ 14](C:\Users\lang\Pictures\截了一手好图\NOJ\NOJ 17.png)
+
+##### Thought: 
+
+一道简单的求素数的题目。不过这种题目算法的提升空间很大，采用试除法，只需除到$\sqrt{n}$即可，而试除除数可以排除偶数（2除外）。
+
+
+
+### NOJ 018
+
+##### Question:
+
+![NOJ 14](C:\Users\lang\Pictures\截了一手好图\NOJ\NOJ 18.png)
+
+##### Thought: 
+
+这里采用了二分法，很经典的一种算法，具体实现方法可以在我的[博客](https://blog.csdn.net/XLZ_44847/article/details/130234028?spm=1001.2014.3001.5502)内查看。
+
